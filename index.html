@@ -1,0 +1,360 @@
+<!-- using grid -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TiTle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script></script>
+    <style>
+        *{
+            box-sizing:border-box;
+            padding:0;
+            margin:0;
+            font-family: sans-serif;
+        }
+        body{
+            width:100%;
+            height:100%;
+        }
+        html{
+            width:100%;
+            height:100%;
+        }
+        .page{
+            width: 100%;
+            height:100%;
+            display: grid;
+            grid-template-columns:repeat(20,auto);
+            grid-template-rows: repeat(12,auto);
+        }
+        .page div{
+            color:white;
+            font-weight:bold;
+            display: grid;
+            place-items: center;
+            text-transform: capitalize;
+        }
+        .one{
+            grid-area:1/1/7/6;
+            background:green;
+        }
+        .two{
+            grid-area:1/6/4/17;
+            background:orangered;
+        }
+        .three{
+            grid-area:4/6/7/17;
+            background:greenyellow;
+        }
+        .four{
+            grid-area:1/17/7/21;
+            background:orange;
+        }
+        .five{
+            grid-area:7/1/10/7;
+            background:royalblue;
+        }
+        .six{
+            grid-area:7/7/10/11;
+            background:indigo;
+        }
+        .seven{
+            grid-area:10/1/13/11;
+            background:black;
+        }
+        .eight{
+            grid-area:7/11/13/21;
+            background:red;
+        }
+    </style>
+</head>
+<body>
+   <div class="page">
+        <div class="one">one</div>
+        <div class="two">two</div>
+        <div class="three">three</div>
+        <div class="four">four</div>
+        <div class="five">five</div>
+        <div class="six">six</div>
+        <div class="seven">seven</div>
+        <div class="eight">eight</div>
+   </div> 
+</body>
+</html> -->
+
+<!-- using flex -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TiTle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script></script>
+    <style>
+        *{
+            box-sizing:border-box;
+            padding:0;
+            margin:0;
+            font-family: sans-serif;
+        }
+        body{
+            width:100%;
+            height:100%;
+        }
+        html{
+            width:100%;
+            height:100%;
+        }
+        .page{
+            width:100%;
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+        .page div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+            font-weight:bold;
+            text-transform: capitalize;
+        }
+        .one{
+            width:30%;
+            height:50%;
+            background:green;
+        }
+        .two{
+            width:50%;
+            height:50%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .two :first-child{
+            width:100%;
+            height:50%;
+            background:orangered;
+        }
+        .two :last-child{
+            width:100%;
+            height:50%;
+            background:greenyellow;
+        }
+        .three{
+            width:50%;
+            height:25%;
+            background:greenyellow;
+        }
+        .four{
+            width:20%;
+            height:50%;
+            background:orange
+        }
+        .container{
+            width:60%;
+            height:50%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container :first-child{
+            width:80%;
+            height:50%;
+            background:royalblue;
+        }
+        .container :nth-child(2){
+            width:20%;
+            height:50%;
+            background:indigo;
+        }
+        .container :last-child{
+            background:black;
+            width: 100%;
+            height:50%;
+        }
+        .eight{
+            width:40%;
+            height:50%;
+            background:red;
+        }
+        </style>
+</head>
+<body>
+    <div class="page">
+            <div class="one">one</div>
+            <div class="two">
+                <div>two</div>
+                <div>three</div> 
+            </div>
+            <div class="four">four</div>
+            <div class="container">
+            <div class="five">five</div>
+            <div class="six">six</div>
+            <div class="seven">seven</div>
+        </div>
+            <div class="eight">eight</div>
+   </div> 
+</body>
+</html> -->
+
+<!-- using float -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TiTle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        html {
+            width: 100%;
+            height: 100%;
+        }
+
+        .page {
+            width: 100%;
+            height: 100%;
+            background: #ccc;
+            overflow: hidden;
+        }
+
+        .page div {
+            color: white;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        .page .one {
+            width: 30%;
+            height: 50%;
+            background: green;
+            display: grid;
+            place-items: center;
+            float: left;
+        }
+
+        .container {
+            width: 50%;
+            height: 50%;
+            float: left;
+            overflow: hidden;
+        }
+
+        .container div {
+            display: grid;
+            place-items: center;
+        }
+
+        .two {
+            width: 100%;
+            height: 50%;
+            background: orangered;
+        }
+
+        .three {
+            width: 100%;
+            height: 50%;
+            background: greenyellow;
+        }
+
+        .four {
+            width: 20%;
+            height: 50%;
+            background: orange;
+            display: grid;
+            place-items: center;
+        }
+
+        .contain {
+            width: 100%;
+            height: 50%;
+            overflow: hidden;
+        }
+        .final{
+            width:60%;
+            height:100%;
+            float:left;
+            overflow: hidden;
+        }
+        .final .five{
+            width:70%;
+            height:50%;
+            background:royalblue;
+            float:left;
+            display: grid;
+            place-items: center;
+        }
+        .final .six{
+            width:30%;
+            height:50%;
+            background:indigo;
+            float:right;
+            display: grid;
+            place-items: center;
+        }
+        .final .seven{
+            width:100%;
+            height:50%;
+            background:black;
+            display: grid;
+            place-items: center;
+        }
+        .eight{
+            float:right;
+            width:40%;
+            height:100%;
+            background:red;
+            display: grid;
+            place-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="one">one</div>
+        <div class="container">
+            <div class="two">two</div>
+            <div class="three">three</div>
+        </div>
+        <div class="four">four</div>
+
+
+        <div class="contain">
+            <div class="final">
+                <div class="five">five</div>
+                <div class="six">six</div>
+                <div class="seven">seven</div>
+            </div>
+            <div class="eight">eight</div>
+        </div>
+    </div>
+</body>
+
+</html>
